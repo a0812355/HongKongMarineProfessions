@@ -394,47 +394,46 @@ $('#submit-btn').click(function () {
 		// document.getElementById('intro-bar').style.width = ((total / 60) * 100) + '%';
 		// console.log(document.getElementById('intro-bar').style.width);
 		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
-		document.getElementById('results').innerHTML = '<b>You are Manatees!</b><br><br>\
-		Introverts are tricky to understand, since it’s so easy for us to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
+		document.getElementById('results').innerHTML = '<b>You are Manatee!</b><br><br>\
+		Manatees are often perceived as gentle and non-aggressive, tending to be peaceful grazers of sea grass. \n\
 <br><br>\
-I love this explanation of an introvert’s need to be alone:\n\
+So let’s look at how a Manatees compares.\n\
 <br><br>\
-For introverts, to be alone with our thoughts is as restorative as sleeping, as nourishing as eating.\n\n\
-<br><br>\
-Introverted people are known for thinking things through before they speak, enjoying small, close groups of friends and one-on-one time, needing time alone to recharge, and being upset by unexpected changes or last-minute surprises. Introverts are not necessarily shy and may not even avoid social situations, but they will definitely need some time alone or just with close friends or family after spending time in a big crowd.\
-		';}
+Their seemingly serene demeanor and lack of territorial behavior might be likened to a humans trait of agreeableness.';}
 
 	 if(total > 50) {
-		document.getElementById('results').innerHTML = '<b>You are Squids!</b><br><br>\
-		On the opposite side of the coin, people who are extroverted are energized by people. They usually enjoy spending time with others, as this is how they recharge from time spent alone focusing or working hard.\
+		document.getElementById('results').innerHTML = '<b>You are Squid!</b><br><br>\
+		Squid is a sea creature is challenging since this trait involves emotional instability, anxiety, and moodiness, which are complex and subjective human experiences.\
+			<br><br>\
+So let’s look at how a Squids compares.\
 <br><br>\
-I like how this extrovert explains the way he/she gains energy from being around other people:\
-<br><br>\
-When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
+ Squids have the ability to rapidly change their skin color and texture, allowing them to blend into their environment and evade predators. This behavior could be loosely associated with the heightened sensitivity to threats and vulnerability that neurotic individuals may experience. Neurotic individuals may also sometimes prefer solitude or isolation due to their sensitivity to stress and emotional fluctuations.'
 ;}
 
 
     if (total > 75) {
 		document.getElementById('results').innerHTML = '<b>You are Beaver!</b><br><br>\
-		Since introverts and extroverts are the extremes of the scale, the rest of us fall somewhere in the middle. Many of us lean one way or the other, but there are some who are quite balanced between the two tendencies. These people are called ambiverts.\
+		Beavers are semi-aquatic and are known for their diligent work ethic, as they meticulously construct dams and lodges.\
 <br><br>\
-So let’s look at how an ambivert compares.\
+So let’s look at how a Beaver compares.\
 <br><br>\
-Ambiverts exhibit both extroverted and introverted tendencies. This means that they generally enjoy being around people, but after a long time this will start to drain them. Similarly, they enjoy solitude and quiet, but not for too long. Ambiverts recharge their energy levels with a mixture of social interaction and alone time.'
+ Their behavior exhibits characteristics such as foresight, planning, and industriousness, which could be likened to human conscientiousness. '
 ;} 
 
 if (total > 100) {
     document.getElementById('results').innerHTML = '<b>You are Dolphin!</b><br><br>\
-    Since introverts and extroverts are the extremes of the scale, the rest of us fall somewhere in the middle. Many of us lean one way or the other, but there are some who are quite balanced between the two tendencies. These people are called ambiverts.\
+    Dolphins are often described as social, playful, and communicative, characteristics that are reminiscent of the human trait of extraversion. \
 <br><br>\
-So let’s look at how an ambivert compares.\
+So let’s look at how a Dolphin compares.\
 <br><br>\
-Ambiverts exhibit both extroverted and introverted tendencies. This means that they generally enjoy being around people, but after a long time this will start to drain them. Similarly, they enjoy solitude and quiet, but not for too long. Ambiverts recharge their energy levels with a mixture of social interaction and alone time.'
+Dolphins are highly social creatures and live in groups called pods. They engage in complex social interactions, communicate through a variety of vocalizations, and show a strong preference for socializing and cooperating with their pod members. Similarly, extraverted individuals tend to enjoy socializing, seek out social interactions, and often have a wide circle of friends. They often initiate interactions with other dolphins and even display curiosity towards humans. This friendly nature aligns with the extraverted trait of being outgoing, sociable, and enjoying the company of others.'
 ;} 
 
 if (total < 50) {
-    document.getElementById('results').innerHTML = '<b>You are Octopuses!</b><br><br>\
+    document.getElementById('results').innerHTML = '<b>You are Octopus!</b><br><br>\
     Octopuses are known for their curious and exploratory nature. They exhibit a high level of intelligence and problem-solving skills, often using creative and unconventional methods to navigate their environment and hunt for prey.\
+<br><br>\
+So let’s look at how an Octopus compares.\
 <br><br>\
 Octopuses are also known to be highly adaptable and can change their behavior and appearance to match their surroundings, demonstrating a willingness to explore and experience new situations.'
 ;} 
